@@ -26,3 +26,30 @@ repos:
     rev: v8.30.0
     hooks:
       - id: gitleaks
+
+  - repo: local
+    hooks:
+      - id: go-format
+        name: golang formatters
+        language: system
+        pass_filenames: false
+        entry: go
+        args:
+          - tool
+          - -modfile=golangci-lint.mod
+          - golangci-lint
+          - fmt
+        types: [go]
+        stages: [pre-commit, pre-push]
+      - id: go-lint
+        name: golang linters
+        language: system
+        pass_filenames: false
+        entry: go
+        args:
+          - tool
+          - -modfile=golangci-lint.mod
+          - golangci-lint
+          - run
+        types: [go]
+        stages: [pre-commit, pre-push]
