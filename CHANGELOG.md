@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Diaszano/gotterns/compare/v1.1.0...v1.1.1) (2025-12-14)
+
+
+### Bug Fixes
+
+* add CODECOV token to test workflow ([0adeb7e](https://github.com/Diaszano/gotterns/commit/0adeb7e94d5d20788de845d41b580c4700fa546d))
+
 # [1.1.0](https://github.com/Diaszano/gotterns/compare/v1.0.0...v1.1.0) (2025-12-14)
 
 
