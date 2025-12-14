@@ -1,0 +1,36 @@
+# .editorconfig
+# EditorConfig helps maintain consistent coding styles across editors/IDEs.
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Go: gofmt uses tabs for indentation and blanks (spaces) for alignment.
+[*.{go,mod,sum,work,gotmpl}]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+# Makefiles require tabs for recipe lines.
+[Makefile]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+# Shell scripts: keep it simple and diff-friendly.
+[*.{sh,bash,zsh}]
+indent_style = space
+indent_size = 2
+
+# Data/config files: consistent 2-space indentation reduces noise in reviews.
+[*.{yml,yaml,json,toml}]
+indent_style = space
+indent_size = 2
+
+# Markdown: trailing spaces can be meaningful (hard line breaks).
+[*.md]
+trim_trailing_whitespace = false
