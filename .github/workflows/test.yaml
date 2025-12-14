@@ -1,0 +1,10 @@
+name: Go Tests & Coverage
+
+on:
+  pull_request:
+    branches: [main]
+
+
+jobs:
+  test:
+    uses: Diaszano/actions/.github/workflows/golang-test.yaml@v1.5.0
