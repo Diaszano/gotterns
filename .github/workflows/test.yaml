@@ -8,3 +8,5 @@ on:
 jobs:
   test:
     uses: Diaszano/actions/.github/workflows/golang-test.yaml@v1.5.0
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
