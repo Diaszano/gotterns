@@ -1,0 +1,17 @@
+name: Check Code
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  format:
+    uses: Diaszano/actions/.github/actions/golang/formatters/formatters.yaml@feat/golangci
+
+  lint:
+    needs: format
+    uses: Diaszano/actions/.github/actions/golang/linters/linters.yaml@feat/golangci@feat/golangci
+
