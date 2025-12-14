@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/Diaszano/gotterns/compare/v1.0.0...v1.1.0) (2025-12-14)
+
+
+### Features
+
+* add Go Tests & Coverage workflow ([2f87f4b](https://github.com/Diaszano/gotterns/commit/2f87f4b87f35dc07cdc7791a955269ece0c3d35e))
+* add Makefile with development commands and workflows ([21a9f7b](https://github.com/Diaszano/gotterns/commit/21a9f7bf5653311850a35e2ea6e9941da8bec6ed))
+
 # 1.0.0 (2025-12-14)
 
 
