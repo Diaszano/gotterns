@@ -7,16 +7,16 @@ formatters:
     - golines
   settings:
     gci:
-      section_order:
-        - Standard
-        - Default
-        - localmodules
+      sections:
+        - standard
+        - default
+        - localmodule
         - alias
         - blank
         - dot
-      custom_order: true
+      custom-order: true
     gofumpt:
-      extra_rules: true
+      extra-rules: true
     golines:
       max_len: 120
 
