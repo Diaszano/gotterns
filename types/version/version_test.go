@@ -3,8 +3,9 @@ package version_test
 import (
 	"testing"
 
-	"github.com/Diaszano/gotterns/types/version"
 	"github.com/stretchr/testify/require"
+
+	"github.com/Diaszano/gotterns/types/version"
 )
 
 func TestTryParse(t *testing.T) {
