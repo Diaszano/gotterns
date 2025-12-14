@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Diaszano/gotterns/compare/v1.1.1...v1.2.0) (2025-12-14)
+
+
+### Features
+
+* enable manual triggering of Go Tests & Coverage workflow ([bfe61c8](https://github.com/Diaszano/gotterns/commit/bfe61c8b968e3ff3ff31b6c234543416a3c2ed62))
+
 ## [1.1.1](https://github.com/Diaszano/gotterns/compare/v1.1.0...v1.1.1) (2025-12-14)
 
 
