@@ -18,7 +18,7 @@ formatters:
     gofumpt:
       extra-rules: true
     golines:
-      max_len: 120
+      max-len: 120
 
 linters:
   default: standard
