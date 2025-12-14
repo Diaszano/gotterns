@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   format:
-    uses: Diaszano/actions/.github/workflows/golang-formatters.yaml@v1.1.0
+    uses: Diaszano/actions/.github/workflows/golang/formatters/format.yaml@v1.2.0
 
   lint:
     needs: format
