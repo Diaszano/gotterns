@@ -9,8 +9,8 @@ on:
 
 jobs:
   format:
-    uses: Diaszano/actions/.github/workflows/golang-formatters.yaml@feat/golangci
+    uses: Diaszano/actions/.github/workflows/golang-formatters.yaml@v1.1.0
 
   lint:
     needs: format
-    uses: Diaszano/actions/.github/workflows/golang-linters.yaml@feat/golangci@feat/golangci
+    uses: Diaszano/actions/.github/workflows/golang-linter.yaml@v1.1.0
